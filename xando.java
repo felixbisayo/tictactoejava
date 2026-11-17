@@ -107,34 +107,42 @@ public class xando extends JFrame implements ActionListener{
         if((b1.getText() == "X" &  b2.getText() == "X"  & b3.getText() == "X" ) | (b1.getText() == "O" &  b2.getText() == "O" & b3.getText() == "O" )) {
             JOptionPane.showMessageDialog(null, b1.getText() + " WINS!!", "WINNER", 1);
             dispose();
+            new xando();
             // top line "1, 2, 3"
         }else if ((b1.getText() == "X" &  b4.getText() == "X" & b7.getText() == "X" ) | (b1.getText() == "O" &  b4.getText() == "O" & b7.getText() == "O" )){
             JOptionPane.showMessageDialog(null, b1.getText() + " WINS!!", "WINNER", 1);
             dispose();
+            new xando();
             // left line "1, 4, 7"
         }else if ((b3.getText() == "X" &  b6.getText() == "X" & b9.getText() == "X" ) | (b3.getText() == "O" &  b6.getText() == "O" & b9.getText() == "O" )){
             JOptionPane.showMessageDialog(null, b3.getText() + " WINS!!", "WINNER", 1);
             dispose();
+            new xando();
             // right line "3, 6, 9"
         }else if ((b7.getText() == "X" &  b8.getText() == "X" & b9.getText() == "X" ) | (b7.getText() == "O" &  b8.getText() == "O" & b9.getText() == "O" )){
             JOptionPane.showMessageDialog(null, b7.getText() + " WINS!!", "WINNER", 1);
             dispose();
+            new xando();
             // bottom line "7, 8, 9"
         }else if ((b1.getText() == "X" &  b5.getText() == "X" & b9.getText() == "X" ) | (b1.getText() == "O" &  b5.getText() == "O" & b9.getText() == "O" )){
             JOptionPane.showMessageDialog(null, b1.getText() + " WINS!!", "WINNER", 1);
             dispose();
+            new xando();
             // left to right slant "1, 5, 9"
         }else if ((b3.getText() == "X" &  b5.getText() == "X" & b7.getText() == "X" ) | (b3.getText() == "O" &  b5.getText() == "O" & b7.getText() == "O" )){
             JOptionPane.showMessageDialog(null, b3.getText() + " WINS!!", "WINNER", 1);
             dispose();
+            new xando();
             // right to left slant "3, 5, 7"
         }else if ((b2.getText() == "X" &  b5.getText() == "X" & b8.getText() == "X" ) | (b2.getText() == "O" &  b5.getText() == "O" & b8.getText() == "O" )){
             JOptionPane.showMessageDialog(null, b2.getText() + " WINS!!", "WINNER", 1);
             dispose();
+            new xando();
             // top to bottom middle "2, 5, 8"
         }else if ((b4.getText() == "X" &  b5.getText() == "X" & b6.getText() == "X" ) | (b4.getText() == "O" &  b5.getText() == "O" & b6.getText() == "O" )){
             JOptionPane.showMessageDialog(null, b4.getText() + " WINS!!", "WINNER", 1);
             dispose();
+            new xando();
             // left to right middle "4, 5, 6"
         }else if(p == 9){
             JOptionPane.showMessageDialog(null, "TIE!", "", 1);
